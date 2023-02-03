@@ -1,0 +1,40 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color : aliceblue;
+}
+
+#formlog{
+
+    text-align: center;
+
+}
+#header1{
+
+   position:relative;
+   background-color: cornflowerblue;
+
+}
+.cx-1{
+
+   text-align:center;
+}
+
+.cx-2{
+
+    text-align:center;
+}

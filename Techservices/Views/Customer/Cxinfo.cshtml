@@ -1,0 +1,35 @@
+﻿@model IEnumerable<infocustomer>
+
+<h2 class="cx-2">Clients Dashboard</h2>
+<div style="display: block">
+    <a  href="~/Customer/InsertCustomer/" class="btn btn-primary">Create a New Client</a>
+</div>
+
+<table class="table">
+    <tr>
+        <th>ID </th>
+        <th>Name</th>
+        <th>Last Name</th>
+        <th>Address</th>
+        <th>Phone</th>
+        <th>Service Date</th>
+        <th>Device</th>
+        <th>Comments</th>
+
+    </tr>
+    @foreach (var clients in Model)
+    {
+            <tr>
+                <td>@clients.idcustomers</td>
+                <td>@clients.name</td>
+                <td>@clients.lastname</td>
+                <td>@clients.address</td>
+                <td>@clients.phone</td>
+                <td>@clients.servicedate</td>
+                <td>@clients.device</td>
+                <td>@clients.comments</td>
+            </tr>
+
+    }
+
+</table>
