@@ -53,5 +53,12 @@ namespace Techservices
 
         }
 
-        
-}   }
+        public void UpdateCustomer(infocustomer customerupdate)
+        {
+            _conn.Execute("UPDATE customers SET name = @name,  lastname = @lastname, address = @address , phone = @phone,servicedate =@servicedate, device = @device, comments = @comments WHERE customers",
+              new { name = customerupdate.name, customerupdate.lastname, customerupdate.address, customerupdate.phone, customerupdate.servicedate, customerupdate.device, customerupdate.comments});
+
+        }
+
+       
+    }   }

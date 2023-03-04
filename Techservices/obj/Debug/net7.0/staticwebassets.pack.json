@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\img\\default.png"
     },
     {
+      "Id": "C:\\Users\\jrodr\\OneDrive\\Documents\\Repo\\Techservices\\Techservices\\wwwroot\\img\\vecteezy_web-analysis-and-development-team_.jpg",
+      "PackagePath": "staticwebassets\\img\\vecteezy_web-analysis-and-development-team_.jpg"
+    },
+    {
       "Id": "C:\\Users\\jrodr\\OneDrive\\Documents\\Repo\\Techservices\\Techservices\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

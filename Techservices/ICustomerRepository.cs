@@ -20,6 +20,9 @@ namespace Techservices
         //public IEnumerable<Createcustomer>Getclients();
 
         public infocustomer AssingCustomer();
+       
+
+        public void UpdateCustomer(infocustomer customerupdate);
 
     }
 }

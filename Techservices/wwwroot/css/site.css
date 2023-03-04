@@ -38,3 +38,14 @@ body {
 
     text-align:center;
 }
+
+.body1 {
+    background-image: url('../img/vecteezy_web-analysis-and-development-team_.jpg');
+    background-repeat: no-repeat;
+    background-size: 600px 700px;
+    position:center;
+}
+#text2{
+
+    text-align:center;
+}

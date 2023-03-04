@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GJuA9CDszH9tPr2oV4ufTrPJVQrk2BE5Fp9lL775Qgs=",
+  "Hash": "1ixrDVj4zzt43itW/MxTSizUcCfrYmsM2Jl16m5pfeQ=",
   "Source": "Techservices",
   "BasePath": "_content/Techservices",
   "Mode": "Default",
@@ -1137,6 +1137,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\default.png"
+    },
+    {
+      "Identity": "C:\\Users\\jrodr\\OneDrive\\Documents\\Repo\\Techservices\\Techservices\\wwwroot\\img\\vecteezy_web-analysis-and-development-team_.jpg",
+      "SourceId": "Techservices",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jrodr\\OneDrive\\Documents\\Repo\\Techservices\\Techservices\\wwwroot\\",
+      "BasePath": "_content/Techservices",
+      "RelativePath": "img/vecteezy_web-analysis-and-development-team_.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\vecteezy_web-analysis-and-development-team_.jpg"
     },
     {
       "Identity": "C:\\Users\\jrodr\\OneDrive\\Documents\\Repo\\Techservices\\Techservices\\wwwroot\\js\\site.js",

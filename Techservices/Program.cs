@@ -27,8 +27,8 @@ builder.Services.AddScoped<IDbConnection>((s) =>
 
 });
 // sql conections from azure 
-builder.Services.AddDbContext<TechservicesContext>(options => 
-    options.UseSqlServer(connectionString : "Server=tcp:techservices.database.windows.net,1433;Initial Catalog=Techservices;Persist Security Info=False;User ID=itsolutions;Password=Daniel1987@;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"));
+builder.Services.AddDbContext<TechservicesContext>(options =>
+    options.UseSqlServer(connectionString: "Server = tcp:techservices.database.windows.net, 1433; Initial Catalog = Techservices; Persist Security Info=False; User ID = itsolutions; Password =Daniel1987@; MultipleActiveResultSets = False; Encrypt = True; TrustServerCertificate = False; Connection Timeout = 30;"));
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<TechservicesContext>();
@@ -57,7 +57,7 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Customer}/{action=Cxinfo}/{id?}");
 app.MapRazorPages();// allow to show the razo pages of indentity 
 app.Run();
 

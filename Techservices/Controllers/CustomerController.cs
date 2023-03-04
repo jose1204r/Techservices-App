@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using AspNetCore;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
 using System.Configuration;
@@ -25,9 +26,10 @@ namespace Techservices.Controllers
             return View(customer);
         }
 
+    
 
 
-      
+
         public IActionResult InsertCustomer()
         {
 
@@ -44,8 +46,27 @@ namespace Techservices.Controllers
             return RedirectToAction("Cxinfo");
         }
 
+        //public IActionResult customerupdate()
+        //{
+        //    infocustomer customer = (infocustomer)repo.GetInfocustomers();
+
+        //    if (customer == null)
+        //    {
+        //        return View("customerNotFound");
+        //    }
+
+        //    return View(customer);
+        //}
 
 
+        //public IActionResult UpdatecustomerToDatabase(infocustomer customer) 
+        //{ 
+        
+        //    repo.UpdateCustomer(customer);
+        //    return RedirectToAction("Customer", new { customer = customer });
+        
+        
+        //}
 
 
     }
