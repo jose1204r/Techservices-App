@@ -61,12 +61,20 @@ namespace Techservices.Controllers
 
         //public IActionResult UpdatecustomerToDatabase(infocustomer customer) 
         //{ 
-        
+
         //    repo.UpdateCustomer(customer);
         //    return RedirectToAction("Customer", new { customer = customer });
-        
-        
+
+
         //}
+
+        public IActionResult deletecustomer(infocustomer customer)
+        {
+            repo.deleteCustomer(customer);
+            return RedirectToAction("Cxinfo");
+
+        }
+
 
 
     }

@@ -24,5 +24,8 @@ namespace Techservices
 
         public void UpdateCustomer(infocustomer customerupdate);
 
+
+        public void deleteCustomer(infocustomer customer);
+
     }
 }

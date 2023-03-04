@@ -60,5 +60,10 @@ namespace Techservices
 
         }
 
-       
+        public void deleteCustomer(infocustomer customer)
+        {
+            _conn.Execute("DELETE FROM REVIEWS WHERE customers =@idcustomers, @name,@lastname,@address,@phone,@servicedate,@device,@comments,",
+                new {customerid = customer.idcustomers, name = customer.name, lastname = customer.lastname, address = customer.address,phone = customer.phone,service = customer.servicedate,comments = customer.comments});
+                
+        }
     }   }
